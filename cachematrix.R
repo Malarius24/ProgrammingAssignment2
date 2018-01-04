@@ -34,11 +34,11 @@ cacheSolve <- function(x, ...) {
 
 ##create a sample matrix
 
-mtrx <- matrix(seq(1:9),3,3)
+mtrx <- matrix(c(1,3,6,6,3,1,3,6,1),3,3)
 
 ##create list for cache matrix 
 
-cache <- makeCacheMatrix(cache)
+cache <- makeCacheMatrix(mtrx)
 
 ##run with no matrix in cache
 
